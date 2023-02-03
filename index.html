@@ -7,6 +7,11 @@
     <title>Web 3</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="queries.css">
+    <script src="https://kit.fontawesome.com/f7e6e8a304.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -22,12 +27,13 @@
                         <li>Trending</li>
                         <li>Categories</li>
                     </ul>
+                    <div class="mobile-nav-icon js--nav-icon"><i class="fas fa-bars"></i></div>
                 </nav>
             </div>
         </div>
         <div class="row">
             <div class="col span-1-of-2">
-                <img src="WebImage.jpeg" alt="" width="600" height="300">
+                <img src="WebImage.jpeg" alt="" width="600" height="300" class="image-cover">
                 
                 <div>
                     <div class="box" width = 100%>
@@ -53,22 +59,22 @@
 
             <div class="col span-1-of-2">
                 <div class="plan-box">
-                    <div><h2>New</h2></div>
+                    <div><h2 class="new">New</h2></div>
                 <div class="omalay">
-                    <h3>Hydrogen Vs Electric Cars</h3>
-                    <p>Will Hydrogen fuel Cars ever catch up to EVs</p>
+                    <h3 class="header-new">Hydrogen Vs Electric Cars</h3>
+                    <p class="paragraph-new">Will Hydrogen fuel Cars ever catch up to EVs</p>
                 </div>
 
                 <div class="omalay">
-                    <h3>The Downsides of AI Artistry</h3>
-                    <p class="paragraph-pricing">What are the possible adverse effects of on-demand 
+                    <h3 class="header-new">The Downsides of AI Artistry</h3>
+                    <p class="paragraph-new">What are the possible adverse effects of on-demand 
                         AI image generation
                     </p>
                 </div>
 
                 <div> 
-                    <h3>Is VC funding Dry up</h3>
-                    <p>Privare funding by VC firms is down by 50%. 
+                    <h3 class="header-new">Is VC funding Dry up</h3>
+                    <p class = "paragraph-new">Privare funding by VC firms is down by 50%. 
                         YOY. We take a look at what that means
                     </p>
                 </div>
@@ -84,40 +90,49 @@
     <section class="section-second">
         <div class="row">
             <div class="col span-1-of-3">
-                
-                    <img src="comp.jpeg" alt="">
-                    <div class="boxes" width = 100%>
+                <div class="boxes">
+                    <img src="comp.jpeg" alt=""  class="image">
+                    
                         
-                        <div class="boxes-inner">
+                        <div class="box-inner">
                             <h2>01</h2>
                             <h3>Reviving Retro PCs</h3>
-                            <p>
-                            What happens when old PCs are given modern upgrades
-                            </p>
+                            <span>
+                            What happens when old PCs <br> are given modern upgrades
+                            </span>
                         </div>
-
-                    </div>
+                </div>
                     
             </div>
                 
             <div class="col span-1-of-3">
-                <img src="keyboard.jpeg" alt="">
-                <div class="keyboard">
-                    <h2>02</h2>
-                    <h3>Top 10 laptops of 2022</h3>
-                    <p>
-                    Our best picks for various needs and budgets
-                    </p>
+                <div class="boxes">
+                    <img src="keyboard.jpeg" alt=""  class="image">
+                    
+                        <div class="box-inner">
+                            <h2>02</h2>
+                            <h3>Top 10 laptops of 2022</h3>
+                            <span>
+                                Our best picks for various needs and budgets
+                            </span>
+                        </div>
+
+                </div>
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="boxes">
+                    <img src="game.jpeg" alt=""  class="image">
+                    <div class="box-inner" >
+                        <h2>03</h2>
+                        <h3>The growth of gaming</h3>
+                        <span>
+                        How the pandemic has sparked fresh opportunities
+                        </span>
+                    </div>
+                    
                 </div>
                 
-            </div>
-            <div class="col span-1-of-3">
-                <img src="game.jpeg" alt="">
-                <h2>03</h2>
-                <h3>The growth of gaming</h3>
-                <p>
-                    How the pandemic has sparked fresh opportunities
-                </p>
             </div>
         </div>
 

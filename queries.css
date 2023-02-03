@@ -1,0 +1,75 @@
+@media(max-width:480px) {
+
+    body{ font-size: 14px; }
+    .row{
+        padding: 0 4%;
+    }
+
+    .image-cover{
+        width: 100%;
+    }
+
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    
+    .plan-box{
+      
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        
+    }
+
+    h3{
+        font-size: 1.3rem;
+        font-weight: 600;
+        
+    }
+
+    .paragraph-long{
+        font-size: 1rem;
+        margin-bottom: 20px;
+       
+        
+        
+    }
+
+    .main-nav{ display: none; }
+
+    span{
+        font-size: 1rem;
+    }
+
+    .btn{
+        margin-top: 30px;
+        padding: 20px 60px;
+        text-transform: uppercase;
+        
+    }
+
+    .mobile-nav-icon{ 
+        display: block; 
+        /* margin-top: 35px; */
+    }
+
+    .main-nav{
+        float: left;
+    }
+
+    .main-nav li{
+        display: block;
+        margin-left: 10px;
+        
+    }
+
+    
+
+
+}
